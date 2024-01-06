@@ -1,25 +1,13 @@
 #!/bin/zsh
 
-echo "Enter two numbers: "
-read a b
+echo "Enter  first number:"
+read num1
+echo "Enter second number:"
+read num2
 
-echo "Enter the operation you want to use (+-x/)"
-read op
+# Add
+sum=$((num1 + num2))
 
-case $op in
-    +)
-        echo $((a + b))
-        ;;
-    -)
-        echo $((a - b))
-        ;;
-    x)
-        echo $((a * b))
-        ;;
-    /)
-        echo $((a / b))
-        ;;
-    *)
-        echo "Enter a valid operation"
-        ;;
-esac
+# Display
+echo "The sum is: $sum"
+
