@@ -1,2 +1,2 @@
 # OperatingSystem-Lab
-Lab work done for Operating System in Bash shell
+Lab work done for Operating System in Bash Shell 
